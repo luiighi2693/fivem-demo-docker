@@ -1,0 +1,11 @@
+endpoint_add_tcp "0.0.0.0:30120"
+endpoint_add_udp "0.0.0.0:30120"
+
+sv_hostname "docker"
+sv_maxclients 32
+
+sv_licenseKey le4ztkitq8ymomanm4td9yza81863c1y
+
+start fivem
+
+start fs_taxi
